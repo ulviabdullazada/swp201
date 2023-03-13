@@ -1,0 +1,52 @@
+/* body{
+    background-color: blueviolet;
+} */
+p{
+    color: green;
+}
+#sum{
+    color: blue;
+}
+#uni{
+    color: green;
+}
+#dov{
+    color: red;
+}
+#v{
+    color: wheat;
+}
+.text-pink{
+    color: pink;
+}
+.text-orange{
+    color:orange;
+}
+.bg-dark{
+    background-color: black;
+}
+.text-pink.bg-dark{
+    background-color: rgb(39, 36, 36);
+}
+.vusal p{
+    color: red;
+}
+/* 
+*{
+    color:yellow;
+    background-color: red;
+}
+span{
+    color: black;
+}*/
+.item{
+    display: inline-block;
+    width: 40%;
+    height: 170px;
+}
+.left{
+    background-color: aqua;
+}
+.right{
+    background-color: brown;
+}
