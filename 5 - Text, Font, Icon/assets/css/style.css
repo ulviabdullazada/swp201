@@ -1,0 +1,51 @@
+/* p{
+    text-indent: 100px;
+    text-align: justify;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-transform: lowercase;
+    text-overflow: clip;
+    text-shadow: 1px 1px 2px gray;
+    -webkit-text-fill-color: aquamarine;
+    background: red !important;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align-last: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.reng{
+    background: white !important;
+} */
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul.menu li{
+    margin: 2.5% 1.5%;
+    display: block;
+}
+ul.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    transition: .25s;
+    padding: 15px;
+    border-radius: 500px;
+}
+ul.menu li a i{
+    font-size: 50px;
+    margin-right: 10px;
+}
+ul.menu li a:hover{
+    /* letter-spacing: 4px; */
+    background-color: darkgray;
+    color: white;
+}
