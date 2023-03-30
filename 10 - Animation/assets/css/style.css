@@ -1,0 +1,59 @@
+body{
+    overflow: hidden;
+}
+.nature{
+    background-image: url('../imgs/bg.png');
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.car{
+    position: absolute;
+    bottom: 150px;
+    left: -400px;
+    animation: drive 5s 1;
+    animation-timing-function: cubic-bezier(0,1.64,.24,.58);
+    animation-fill-mode: forwards;
+}
+.nurlan{
+    width: 150px;
+    position: absolute;
+    bottom: 250px;
+    right: -150px;
+    animation: nurlan .5s infinite alternate, nurlanGel 8s 1;
+    transform-origin: center bottom;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes nurlan{
+    from{
+        transform: rotate(50deg);
+    }
+    to{
+        transform: rotate(-50deg);
+    }
+}
+@keyframes nurlanGel{
+    0%{
+        right: -150px;
+    }
+    50%{
+        right: 350px;
+        transform: scale(1);
+        transform-origin: center;
+        bottom: 250px;
+    }
+    100%{
+        transform: scale(12.5) rotate(1440deg);
+        right: 800px;
+        bottom: -250px;
+    }
+}
+@keyframes drive{
+    from{
+        left: -400px;
+    }
+    to{
+        left: 1000px;
+    }
+}
