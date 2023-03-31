@@ -1,0 +1,56 @@
+.navbar{
+    background-color: darkslategray;
+}
+.navbar .row{
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 15px 25px;
+    /* margin: ; */
+}
+.active{
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+.btn-menu{
+    display: none;
+    font-size: 18px;
+    align-items: center;
+    border: none;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 7.5px 15px;
+    gap: 5px;
+    color: white;
+}
+.btn-menu svg{
+    width: 35px;
+}
+
+@media (max-width:820px){
+    .navbar ul{
+        display: none;
+    }
+    .btn-menu{
+        display: flex;
+    }
+}
+@media (max-width:470px) {
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar h1{
+        font-size: 20px;
+    }
+}
+@media (max-width:340px) {
+    .btn-menu span{
+        display: none;
+    }
+    .btn-menu svg{
+        width: 25px;
+    }
+}
