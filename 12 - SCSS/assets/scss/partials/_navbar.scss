@@ -1,0 +1,21 @@
+nav{
+    .row{
+        justify-content: space-between;
+    }
+    ul{
+        font-size: $font-size;
+        li{
+            display: inline-block;
+            margin: 0px 10px;
+        }
+    }
+    .right-side.row{
+        gap: 40px;
+    }
+    .btn{
+        gap: 10px;
+        svg{
+            fill: #fff;
+        }
+    }
+}
